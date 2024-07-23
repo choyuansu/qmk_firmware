@@ -106,7 +106,7 @@
       "LALT(KC_GRV)",
       "ANY(GOOGLE_FIRST_RESULT)",
       "KC_APP",
-      "KC_NO",
+      "LCTL(KC_GRV)",
       "KC_TRNS",
       "KC_RCTL",
       "KC_TRNS",
