@@ -44,8 +44,6 @@ void dance_brcs(tap_dance_state_t *state, void *user_data) {
     if (state->count == 1) {
         SEND_STRING("[");
     } else if (state->count == 2) {
-        SEND_STRING("[]");
-    } else if (state->count == 3) {
         SEND_STRING("]");
     } else {
         reset_tap_dance (state);
@@ -56,8 +54,6 @@ void dance_cbrs(tap_dance_state_t *state, void *user_data) {
     if (state->count == 1) {
         SEND_STRING("{");
     } else if (state->count == 2) {
-        SEND_STRING("{}");
-    } else if (state->count == 3) {
         SEND_STRING("}");
     } else {
         reset_tap_dance (state);
@@ -68,8 +64,6 @@ void dance_prns(tap_dance_state_t *state, void *user_data) {
     if (state->count == 1) {
         SEND_STRING("(");
     } else if (state->count == 2) {
-        SEND_STRING("()");
-    } else if (state->count == 3) {
         SEND_STRING(")");
     } else {
         reset_tap_dance (state);
